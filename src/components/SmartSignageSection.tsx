@@ -8,9 +8,8 @@ import qrAscires from "@/assets/pilarqr.png";
 import nfcWipass from "@/assets/piwi.png";
 
 const nfcUseCases = [
-  { icon: CheckCircle2, text: "Check-in automático al llegar al recinto" },
-  { icon: MapPin, text: "Puntos de información interactivos en cada planta" },
-  { icon: Smartphone, text: "Guía personalizada del usuario por todo el espacio" },
+  { icon: CheckCircle2, text: "Acceso inmediato" },
+  { icon: Smartphone, text: "Interacción intuitiva" },
 ];
 
 const SmartSignageSection = () => (
@@ -32,8 +31,7 @@ const SmartSignageSection = () => (
           </span>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">Smart Signage</h2>
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-            Convierte cualquier soporte físico en un punto de acceso a contenidos audiovisuales. Un gesto del
-            espectador, infinitas piezas que reproducir.
+            Activa el proceso de contratación, identifica tu Carrefour Club y accede a tus recompensas digitales simplemente acercando el móvil.
           </p>
         </div>
       </ScrollReveal>
@@ -121,15 +119,14 @@ const SmartSignageSection = () => (
                 <img src={iconNfc} alt="NFC" className="h-14 object-contain" />
                 <div>
                   <span className="text-[10px] uppercase tracking-[0.2em] text-accent font-bold">
-                    Sin apps · Sin cámara
+                    SIN APP · SIN ESPERAS · SIN ESCANEAR
                   </span>
                   <h3 className="text-2xl font-bold text-foreground">Dispositivos NFC</h3>
                 </div>
               </div>
 
               <p className="text-sm text-muted-foreground leading-relaxed mb-5">
-                Activa contenidos audiovisuales con un simple acercamiento del móvil: trailers, fichas, listas de
-                reproducción y experiencias phygital sin fricción
+                Acerca tu móvil para iniciar el proceso de contratación y vincular automáticamente tus beneficios Carrefour Club.
               </p>
 
               {/* NFC image */}
