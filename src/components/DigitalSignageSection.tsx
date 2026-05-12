@@ -16,7 +16,7 @@ const totemSecondary = [
   { src: totem4, alt: "Tótem digital con anuncio en oficina corporativa" },
 ];
 
-const bubbles = ["Tótems interactivos", "Kioskos táctiles", "Gestión de colas", "Soluciones LED"];
+const bubbles = ["Contratación autónoma", "Activación mediante NFC", "Fidelización Carrefour", "Asistencia inteligente"];
 const epaperBubbles = ["Etiquetas de precio", "Promociones", "Información de producto"];
 
 const DigitalSignageSection = () => (
@@ -27,7 +27,7 @@ const DigitalSignageSection = () => (
           <span className="inline-block text-xs uppercase tracking-[0.3em] text-accent font-primary font-bold mb-4">
             01
           </span>
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground">Digital Signage</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground">Experiencia Retail Inteligente</h2>
         </div>
       </ScrollReveal>
 
@@ -35,8 +35,7 @@ const DigitalSignageSection = () => (
       <ScrollReveal delay={0.1}>
         <div className="max-w-4xl mx-auto text-center mb-10">
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-            Producciones audiovisuales personalizadas que conectan tu marca con la audiencia a través de contenidos
-            visuales impactantes, dinámicos y con calidad cinematográfica.
+            Soluciones adaptadas a cada formato Carrefour.
           </p>
 
           <div className="flex flex-wrap justify-center gap-2.5 mt-6">
