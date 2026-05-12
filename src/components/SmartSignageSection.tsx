@@ -149,10 +149,7 @@ const SmartSignageSection = () => (
         </ScrollReveal>
       </div>
 
-      {/* Accesibilidad como subsección */}
-      <NavilensSection />
-    </div>
-  </section>
+      
 );
 
 export default SmartSignageSection;
