@@ -4,7 +4,7 @@ import ScrollReveal from "./ScrollReveal";
 import NavilensSection from "./NavilensSection";
 import iconQr from "@/assets/qr-code-example.png";
 import iconNfc from "@/assets/shape-outline.png";
-import qrAscires from "@/assets/landing.png";
+import qrAscires from "@/assets/landing.jfif";
 import nfcWipass from "@/assets/iberdrolanfc.png";
 
 const nfcUseCases = [
