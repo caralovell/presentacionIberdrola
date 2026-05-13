@@ -5,7 +5,7 @@ import NavilensSection from "./NavilensSection";
 import iconQr from "@/assets/qr-code-example.png";
 import iconNfc from "@/assets/shape-outline.png";
 import qrAscires from "@/assets/pilarqr.png";
-import nfcWipass from "@/assets/piwi.png";
+import nfcWipass from "@/assets/iberdrolanfc.png";
 
 const nfcUseCases = [
   { icon: CheckCircle2, text: "Acceso inmediato" },
