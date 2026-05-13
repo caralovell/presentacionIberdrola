@@ -4,16 +4,16 @@ import cmsDashboard from "@/assets/dashboard-mockup.png";
 import player from "@/assets/android-media-player.jpg";
 import epaperDisplay from "@/assets/pantallaelect.png";
 import totemMain from "@/assets/pi1.png";
-import totem1 from "@/assets/pi2.png";
-import totem2 from "@/assets/pi3.png";
-import totem3 from "@/assets/pi4.png";
-import totem4 from "@/assets/pi5.png";
+import totem1 from "@/assets/ib1.png";
+import totem2 from "@/assets/ib2.png";
+import totem3 from "@/assets/ib3.png";
+import totem4 from "@/assets/ib4.png";
 
 const totemSecondary = [
-  { src: totem1, alt: "Tótem digital con anuncio en centro comercial" },
-  { src: totem2, alt: "Tótem digital con anuncio en aeropuerto" },
-  { src: totem3, alt: "Tótem digital con anuncio en museo" },
-  { src: totem4, alt: "Tótem digital con anuncio en oficina corporativa" },
+  { src: totem1, alt: "Tótem digital" },
+  { src: totem2, alt: "Tótem digital" },
+  { src: totem3, alt: "Tótem digital" },
+  { src: totem4, alt: "Tótem digital" },
 ];
 
 const bubbles = ["Contratación autónoma", "Activación mediante NFC", "Fidelización Carrefour", "Asistencia inteligente"];
