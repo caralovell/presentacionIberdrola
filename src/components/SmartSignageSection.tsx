@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Smartphone, CheckCircle2, QrCode, ScanLine } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
 import NavilensSection from "./NavilensSection";
-import iconQr from "@/assets/qr-code-example.png";
+import iconQr from "@/assets/coco2.png";
 import iconNfc from "@/assets/shape-outline.png";
 import qrAscires from "@/assets/landing.jfif";
 import nfcWipass from "@/assets/iberdrolanfc.png";
@@ -36,7 +36,7 @@ const SmartSignageSection = () => (
           </span>
 
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
-            Activación digital mediante QR y NFC
+            Smart Signage
           </h2>
 
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
