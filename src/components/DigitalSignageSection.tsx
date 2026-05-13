@@ -27,7 +27,7 @@ const DigitalSignageSection = () => (
           <span className="inline-block text-xs uppercase tracking-[0.3em] text-accent font-primary font-bold mb-4">
             01
           </span>
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground">Experiencia Retail Inteligente</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground">Digital Signage</h2>
         </div>
       </ScrollReveal>
 
