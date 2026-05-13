@@ -3,11 +3,11 @@ import ScrollReveal from "./ScrollReveal";
 import cmsDashboard from "@/assets/dashboard-mockup.png";
 import player from "@/assets/android-media-player.jpg";
 import epaperDisplay from "@/assets/pantallaelect.png";
-import totemMain from "@/assets/ibmain.png";
-import totem1 from "@/assets/ib1.png";
-import totem2 from "@/assets/ib2.png";
-import totem3 from "@/assets/ib3.png";
-import totem4 from "@/assets/ib4.png";
+import totemMain from "@/assets/0ib.png";
+import totem1 from "@/assets/1ib.png";
+import totem2 from "@/assets/2ib.png";
+import totem3 from "@/assets/3ib.png";
+import totem4 from "@/assets/4ib.png";
 
 const totemSecondary = [
   { src: totem1, alt: "Tótem digital" },
