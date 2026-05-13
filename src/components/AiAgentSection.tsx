@@ -2,7 +2,7 @@ import { motion, useMotionValue, useSpring } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
 import { useEffect, useRef } from "react";
 import { Bot, Sparkles, CheckCircle2 } from "lucide-react";
-import aiAgent from "@/assets/aasistente.png";
+import aiAgent from "@/assets/chatbot.png";
 import aiAvatar from "@/assets/corpo.png";
 
 const blocks = [
