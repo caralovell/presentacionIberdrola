@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
-import { Smartphone, CheckCircle2, QrCode, ScanLine } from "lucide-react";
+import { Smartphone, CheckCircle2, ScanLine } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
 import NavilensSection from "./NavilensSection";
-import iconQr from "@/assets/coco2.png";
+import iconQr from "@/assets/qr-code-example.png";
 import iconNfc from "@/assets/shape-outline.png";
+import qrCodeImage from "@/assets/coco2.png";
 import qrAscires from "@/assets/landing.jfif";
 import nfcWipass from "@/assets/iberdrolanfc.png";
 
@@ -71,7 +72,12 @@ const SmartSignageSection = () => (
                 </p>
 
                 <div className="mb-6 inline-flex flex-col items-center rounded-2xl bg-background border border-border p-4 shadow-sm">
-                  <QrCode className="w-28 h-28 text-foreground" strokeWidth={1.5} />
+                  <img
+                    src={qrCodeImage}
+                    alt="Código QR de prueba"
+                    className="w-28 h-28 object-contain"
+                    loading="lazy"
+                  />
                   <span className="mt-3 text-xs font-medium text-muted-foreground">
                     Escanea para probar la experiencia
                   </span>
