@@ -9,6 +9,7 @@ import totem1 from "@/assets/1ib.png";
 import totem2 from "@/assets/2ib.png";
 import totem3 from "@/assets/3ib.png";
 import totem4 from "@/assets/4ib.png";
+import portrait from "@/assets/ibportrait.png";
 
 const totemSecondary = [
   { src: totem1, alt: "Tótem digital" },
@@ -114,6 +115,44 @@ const DigitalSignageSection = () => {
             </div>
           </div>
         </ScrollReveal>
+{/* Table tablets section */}
+<ScrollReveal delay={0.2}>
+  <div className="max-w-4xl mx-auto mb-16">
+    <div className="grid md:grid-cols-2 gap-8 items-center rounded-3xl bg-muted/40 border border-border p-6 md:p-8 shadow-sm">
+      <div>
+        <span className="inline-block text-xs uppercase tracking-[0.25em] text-accent font-primary font-bold mb-3">
+          Table tablets
+        </span>
+
+        <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
+          También disponibles para zonas de mesa
+        </h3>
+
+        <p className="text-muted-foreground leading-relaxed">
+          Además de los tótems digitales, contamos con tablets de sobremesa pensadas para
+          espacios más cercanos al cliente, ideales para colocar sobre mesas, mostradores o
+          puntos de atención.
+        </p>
+      </div>
+
+      <motion.div
+        className="relative rounded-2xl overflow-hidden shadow-xl border border-border bg-background"
+        whileHover={{ scale: 1.02 }}
+        transition={{ duration: 0.3 }}
+      >
+        <img
+          src={portrait}
+          alt="Tablet de sobremesa para zonas de mesa"
+          className="w-full h-full object-cover"
+          loading="lazy"
+          width={1024}
+          height={1024}
+        />
+      </motion.div>
+    </div>
+  </div>
+</ScrollReveal>
+        
       </div>
 
       <AnimatePresence>
