@@ -121,12 +121,8 @@ const DigitalSignageSection = () => {
     <div className="grid md:grid-cols-2 gap-8 items-center rounded-3xl bg-muted/40 border border-border p-6 md:p-8 shadow-sm">
       <div>
         <span className="inline-block text-xs uppercase tracking-[0.25em] text-accent font-primary font-bold mb-3">
-          Table tablets
+          Portrait tablet
         </span>
-
-        <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-          También disponibles para zonas de mesa
-        </h3>
 
         <p className="text-muted-foreground leading-relaxed">
           Además de los tótems digitales, contamos con tablets de sobremesa pensadas para
@@ -136,7 +132,7 @@ const DigitalSignageSection = () => {
       </div>
 
       <motion.div
-        className="relative rounded-2xl overflow-hidden shadow-xl border border-border bg-background"
+  className="relative rounded-2xl overflow-hidden shadow-xl border border-border bg-background max-w-[260px] mx-auto"
         whileHover={{ scale: 1.02 }}
         transition={{ duration: 0.3 }}
       >
